@@ -1,1 +1,77 @@
 @import url(grid-system.css);
+
+#navbar {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.hamburger {
+    position: relative;
+    display: inline-block;
+    width: 1.25em;
+    height: 0.8em;
+    margin-right: 0.3em;
+    border-top: 0.2em solid #333447;
+    border-bottom: 0.2em solid #333447;
+}
+
+.hamburger:before {
+    content: "";
+    position: absolute;
+    top: 0.3em;
+    left: 0px;
+    width: 100%;
+    border-top: 0.2em solid #333447;
+}
+
+.navbar-link-toggle {
+  display: none;
+}
+
+.nav-brand {
+  font-size: 1.5rem;
+}
+
+.nav-links-right {
+  margin-left: auto;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  padding: 1rem;
+}
+
+.vertical-center{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-links, #navbar {
+    flex-direction: column;
+  }
+
+  .navbar-link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links-right {
+    margin-left: 0;
+  }
+}
