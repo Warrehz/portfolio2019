@@ -1,10 +1,36 @@
 @import url(grid-system.css);
 
+h1 {
+  font-size: 5rem;
+  margin-bottom: 0.1em;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-top: 0.1em;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
 #navbar {
   display: flex;
   margin-right: auto;
   margin-left: auto;
   position: relative;
+}
+
+.about-me {
+  height: 50%;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.about-me p {
+  font-size: 1.5rem;
+  width: 66%;
+  margin: 0 auto;
 }
 
 .hamburger {
@@ -26,12 +52,16 @@
     border-top: 0.2em solid #333447;
 }
 
+.hero-section {
+  height: 60vh;
+}
+
 .navbar-link-toggle {
   display: none;
 }
 
 .nav-brand {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 .nav-links-right {
@@ -56,6 +86,15 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+  h1 {
+    font-size: 3.25rem;
+  }
+
+  h2 {
+    font-size: 2.1rem;
+  }
+
   .nav-links, #navbar {
     flex-direction: column;
   }
