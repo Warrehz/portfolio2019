@@ -22,9 +22,13 @@ h3 {
 }
 
 .about-me {
-  height: 50%;
   background-color: #f1f1f1;
   text-align: center;
+  padding-bottom: 5rem;
+}
+
+.about-me h3 {
+  padding-top: 5rem;
 }
 
 .about-me p {
@@ -54,6 +58,10 @@ h3 {
 
 .hero-section {
   height: 60vh;
+}
+
+.my-work {
+  height: 50%;
 }
 
 .navbar-link-toggle {
@@ -93,6 +101,10 @@ h3 {
 
   h2 {
     font-size: 2.1rem;
+  }
+
+  .hero-section {
+    height: 45vh;
   }
 
   .nav-links, #navbar {
