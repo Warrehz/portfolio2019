@@ -1,5 +1,10 @@
 @import url(grid-system.css);
 
+body {
+  color: #4C4C4C;
+  background-color: #FFFFFF;
+}
+
 h1 {
   font-size: 5rem;
   margin-bottom: 0.1em;
@@ -22,19 +27,11 @@ h3 {
 }
 
 .about-me {
-  background-color: #f1f1f1;
+  background-color: #3626A7;
   text-align: center;
-  padding-bottom: 5rem;
-}
-
-.about-me h3 {
   padding-top: 5rem;
-}
-
-.about-me p {
-  font-size: 1.5rem;
-  width: 66%;
-  margin: 0 auto;
+  padding-bottom: 18rem;
+  color: #FFFFFF !important;
 }
 
 .hamburger {
@@ -56,20 +53,12 @@ h3 {
     border-top: 0.2em solid #333447;
 }
 
-.hero-section {
-  height: 60vh;
-}
-
-.my-work {
-  height: 50%;
-}
-
 .navbar-link-toggle {
   display: none;
 }
 
 .nav-brand {
-  font-size: 1.75rem;
+  font-size: 1.75rem !important;
 }
 
 .nav-links-right {
@@ -83,6 +72,32 @@ h3 {
 
 .nav-link {
   padding: 1rem;
+  font-size: 1.25rem;
+}
+
+.sub-text {
+  font-size: 1.3rem;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.tech .sub-text {
+  width: 66%;
+}
+
+.tech {
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  width: 70%;
+  margin-top: -7rem;
+  margin-left: ;
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  text-align: center;
+  border: 1px solid #DBDBDB;
 }
 
 .vertical-center{
@@ -101,6 +116,12 @@ h3 {
 
   h2 {
     font-size: 2.1rem;
+  }
+
+  .about-me p {
+    font-size: 1.5rem;
+    width: 85%;
+    margin: 0 auto;
   }
 
   .hero-section {
@@ -125,4 +146,39 @@ h3 {
   .nav-links-right {
     margin-left: 0;
   }
+}
+
+@media only screen and (max-width: 425px) {
+  .tech {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .tech {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+
+  h1 {
+    font-size: 2.75rem;
+    margin-bottom: 0.1em;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+    margin-top: 0.1em;
+  }
+
+  .about-me {
+    padding-top: 3rem;
+    padding-bottom: 12rem;
+  }
+
+  .tech {
+    width: 90%;
+  }
+
 }
