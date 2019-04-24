@@ -1,5 +1,6 @@
 @import url(grid-system.css);
 
+
 body {
   color: #4C4C4C;
   background-color: #FFFFFF;
@@ -28,9 +29,8 @@ h3 {
 
 .about-me {
   background-color: #3626A7;
-  text-align: center;
-  padding-top: 5rem;
   padding-bottom: 18rem;
+  padding-top: 2rem;
   color: #FFFFFF !important;
 }
 
@@ -51,6 +51,10 @@ h3 {
     left: 0px;
     width: 100%;
     border-top: 0.2em solid #333447;
+}
+
+.header {
+  text-align: center;
 }
 
 .navbar-link-toggle {
@@ -79,6 +83,7 @@ h3 {
   font-size: 1.3rem;
   width: 50%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .tech .sub-text {
@@ -98,6 +103,7 @@ h3 {
   transform: translateX(-50%);
   text-align: center;
   border: 1px solid #DBDBDB;
+  padding-top: 2rem;
 }
 
 .vertical-center{
@@ -118,7 +124,11 @@ h3 {
     font-size: 2.1rem;
   }
 
-  .about-me p {
+  .about-me {
+    padding-bottom: 14rem;
+  }
+
+  .sub-text {
     font-size: 1.5rem;
     width: 85%;
     margin: 0 auto;
@@ -146,6 +156,11 @@ h3 {
   .nav-links-right {
     margin-left: 0;
   }
+
+  .tech {
+    width: 90%;
+  }
+
 }
 
 @media only screen and (max-width: 425px) {
@@ -177,8 +192,17 @@ h3 {
     padding-bottom: 12rem;
   }
 
+  .sub-text {
+    font-size: 1.3rem
+  }
+
   .tech {
     width: 90%;
   }
+
+  .tech .sub-text {
+    width: 85%;
+  }
+
 
 }
