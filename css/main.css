@@ -4,6 +4,7 @@
 body {
   color: #4C4C4C;
   background-color: #FFFFFF;
+  letter-spacing: 0.2rem;
 }
 
 h1 {
@@ -55,6 +56,18 @@ h3 {
 
 .header {
   text-align: center;
+}
+
+.icon h3 {
+  margin-top: 0;
+}
+
+.icon-section {
+  padding-bottom: 5rem;
+}
+
+.icon-section .row {
+  padding-top: 3rem;
 }
 
 .navbar-link-toggle {
