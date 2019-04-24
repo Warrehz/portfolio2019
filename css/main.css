@@ -161,6 +161,10 @@ h3 {
     width: 90%;
   }
 
+  .tech .sub-text {
+    width: 85%;
+  }
+
 }
 
 @media only screen and (max-width: 425px) {
@@ -199,10 +203,5 @@ h3 {
   .tech {
     width: 90%;
   }
-
-  .tech .sub-text {
-    width: 85%;
-  }
-
 
 }
