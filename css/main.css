@@ -44,6 +44,16 @@ h3 {
   color: #105C8C;
   border-radius: 4px;
   padding: 0.5rem 1rem !important;
+  -webkit-transition: background-color 0.8s ease-out;
+  -moz-transition: background-color 0.8s ease-out;
+  -o-transition: background-color 0.8s ease-out;
+  transition: background-color 0.8s ease-out;
+}
+
+.button-bordered:hover {
+  background-color: #105C8C;
+  color: #FFFFFF;
+  cursor: pointer;
 }
 
 .hamburger {
@@ -114,7 +124,7 @@ h3 {
 
 .sub-text {
   font-size: 1.3rem;
-  width: 50%;
+  width: 55%;
   margin: 0 auto;
   text-align: center;
 }
