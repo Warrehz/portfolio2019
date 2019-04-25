@@ -4,17 +4,19 @@
 body {
   color: #4C4C4C;
   background-color: #FFFFFF;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.15rem;
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 3.5rem;
   margin-bottom: 0.1em;
+  font-weight: 500;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-top: 0.1em;
+  font-weight: 400;
 }
 
 h3 {
@@ -26,13 +28,22 @@ h3 {
   margin-right: auto;
   margin-left: auto;
   position: relative;
+  padding-top: 1rem;
 }
 
 .about-me {
-  background-color: #3626A7;
+  background-color: #105C8C;
   padding-bottom: 18rem;
   padding-top: 2rem;
   color: #FFFFFF !important;
+  z-index: 5 !important;
+}
+
+.button-bordered {
+  border: 2px solid #105C8C;
+  color: #105C8C;
+  border-radius: 4px;
+  padding: 0.5rem 1rem !important;
 }
 
 .hamburger {
@@ -58,6 +69,10 @@ h3 {
   text-align: center;
 }
 
+.hero-section {
+  padding-bottom: 3rem;
+}
+
 .icon h3 {
   margin-top: 0;
 }
@@ -70,12 +85,17 @@ h3 {
   padding-top: 3rem;
 }
 
+.my-projects {
+  text-align: center;
+}
+
 .navbar-link-toggle {
   display: none;
 }
 
 .nav-brand {
   font-size: 1.75rem !important;
+  font-weight: 500;
 }
 
 .nav-links-right {
@@ -105,15 +125,11 @@ h3 {
 
 .tech {
   background-color: #FFFFFF;
-  border-radius: 30px;
+  border-radius: 4px;
   width: 70%;
+  margin: 0 auto;
   margin-top: -7rem;
-  margin-left: ;
-  z-index: 2;
-  position: absolute;
-  left: 50%;
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+  z-index: 2 !important;
   text-align: center;
   border: 1px solid #DBDBDB;
   padding-top: 2rem;
