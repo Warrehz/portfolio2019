@@ -31,6 +31,12 @@ h3 {
   padding-top: 1rem;
 }
 
+.accent {
+  background-color: #F48244;
+  display: inline-block;
+  height: 25px;
+}
+
 .about-me {
   background-color: #105C8C;
   padding-bottom: 18rem;
