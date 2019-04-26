@@ -32,13 +32,18 @@ h3 {
 }
 
 .accent {
-  background-color: #F48244;
+  background-color: #E86F5C;
   display: inline-block;
-  height: 25px;
+  position: absolute;
+  z-index: -1;
+  height: 12px;
+  width: 55px;
+  margin-top: 70px;
+  margin-left: 10px;
 }
 
 .about-me {
-  background-color: #105C8C;
+  background-color: #789174;
   padding-bottom: 18rem;
   padding-top: 2rem;
   color: #FFFFFF !important;
@@ -46,8 +51,8 @@ h3 {
 }
 
 .button-bordered {
-  border: 2px solid #105C8C;
-  color: #105C8C;
+  border: 2px solid #789174;
+  color: #789174;
   border-radius: 4px;
   padding: 0.5rem 1rem !important;
   -webkit-transition: background-color 0.8s ease-out;
@@ -57,7 +62,7 @@ h3 {
 }
 
 .button-bordered:hover {
-  background-color: #105C8C;
+  background-color: #789174;
   color: #FFFFFF;
   cursor: pointer;
 }
