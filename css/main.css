@@ -147,7 +147,7 @@ h3 {
 .tech {
   background-color: #FFFFFF;
   border-radius: 4px;
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
   margin-top: -7rem;
   z-index: 2 !important;
@@ -219,13 +219,13 @@ h3 {
 
 @media only screen and (max-width: 425px) {
   .tech {
-    width: 90%;
+    width: 80%;
   }
 }
 
 @media only screen and (max-width: 375px) {
   .tech {
-    width: 90%;
+    width: 80%;
   }
 }
 
@@ -251,7 +251,7 @@ h3 {
   }
 
   .tech {
-    width: 90%;
+    width: 80%;
   }
 
 }
