@@ -1,6 +1,7 @@
 /* Simple grid by Zach Cole at https://github.com/zachacole/Simple-Grid */
 
 @import url('https://fonts.googleapis.com/css?family=Catamaran:400,500');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 /* UNIVERSAL */
 
@@ -18,7 +19,7 @@ body {
 /* ROOT FONT STYLES */
 
 * {
-  font-family: 'Catamaran', Helvetica, sans-serif;
+  font-family: 'Catamaran', 'Helvetica', sans-serif;
   line-height: 1.5;
 }
 
