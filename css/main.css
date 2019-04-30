@@ -37,10 +37,12 @@ h3 {
   z-index: -1;
   width: 0;
   height: 0;
-  border-top: 50px solid transparent;
-  border-right: 100px solid #E86F5C;
-  border-bottom: 50px solid transparent;
-  transform: rotate(10deg)
+  border-top: 200px solid transparent;
+  border-right: 250px solid #E86F5C;
+  border-bottom: 200px solid transparent;
+  transform: rotate(75deg);
+  top: -25px;
+  left: 40px;
 }
 
 .about-me {
@@ -245,6 +247,20 @@ h3 {
   .about-me {
     padding-top: 3rem;
     padding-bottom: 12rem;
+  }
+
+  .accent {
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent;
+    border-right: 200px solid #E86F5C;
+    border-bottom: 150px solid transparent;
+    transform: rotate(75deg);
+    top: -25px;
+    left: 10px;
   }
 
   .sub-text {
