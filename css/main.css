@@ -32,14 +32,15 @@ h3 {
 }
 
 .accent {
-  background-color: #E86F5C;
   display: inline-block;
   position: absolute;
   z-index: -1;
-  height: 12px;
-  width: 55px;
-  margin-top: 70px;
-  margin-left: 10px;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 100px solid #E86F5C;
+  border-bottom: 50px solid transparent;
+  transform: rotate(10deg)
 }
 
 .about-me {
