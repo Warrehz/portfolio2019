@@ -35,7 +35,7 @@ h3 {
 }
 
 .about-me {
-  background-color: #0F3082;
+  background-color: #001064;
   padding-bottom: 18rem;
   padding-top: 1rem;
   color: #FFFFFF !important;
@@ -43,8 +43,8 @@ h3 {
 }
 
 .button-bordered {
-  border: 2px solid #0F3082;
-  color: #0F3082;
+  border: 2px solid #001064;
+  color: #001064;
   border-radius: 4px;
   padding: 0.5rem 1rem !important;
   -webkit-transition: background-color 0.8s ease-out;
@@ -81,8 +81,21 @@ h3 {
   margin-top: 5rem;
 }
 
+.footer {
+  background-color: #001064;
+  padding-top: 10rem;
+  text-align: center;
+}
+
 .content {
   margin-top: 8rem;
+}
+
+.footer-text {
+  color: #FFFFFF;
+  letter-spacing: 0.05rem;
+  font-family: 'Lato', 'Helvetica', sans-serif;
+  text-align: center;
 }
 
 .hamburger {
@@ -110,7 +123,8 @@ h3 {
 }
 
 .hero-section {
-  padding-bottom: 20rem;
+  padding-top: 5rem;
+  padding-bottom: 15rem;
 }
 
 .icon h3 {
@@ -134,7 +148,6 @@ h3 {
   margin: 0 auto;
   text-align: center;
   padding-top: 5rem;
-  padding-bottom: 15rem;
 }
 
 .navbar-link-toggle {
@@ -181,6 +194,13 @@ h3 {
   margin: 0.5rem 0;
 }
 
+.social-icon {
+  display:inline-block;
+  height: 40px;
+  margin: 0 auto;
+  padding: 0.25rem;
+}
+
 .sub-text {
   font-size: 1.2rem;
   width: 55%;
@@ -204,6 +224,20 @@ h3 {
   text-align: center;
   border: 1px solid #DBDBDB;
   padding-top: 2rem;
+}
+
+.testimonials {
+  text-align: center;
+  margin-top: 15rem;
+  border-top: 1px solid #DBDBDB;
+  padding-bottom: 10rem;
+}
+
+.testimonial-photo {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  margin: 2rem auto 0 auto;
 }
 
 .vertical-center{
@@ -324,6 +358,7 @@ h3 {
 
   .my-projects {
     width: 90%;
+    padding-top: 2rem;
   }
 
   .nav-link {
