@@ -39,7 +39,6 @@ h3 {
   padding-bottom: 18rem;
   padding-top: 1rem;
   color: #FFFFFF !important;
-  z-index: 5 !important;
 }
 
 .button-bordered {
@@ -85,6 +84,16 @@ h3 {
   background-color: #001064;
   padding-top: 10rem;
   text-align: center;
+
+}
+
+.contact-me {
+  width: 60%;
+  border-radius: 4px;
+  background-color: #EF0D33;
+  border: 5px solid #FFFFFF;
+  height: 12rem;
+  margin: -15rem auto 5rem auto;
 }
 
 .content {
@@ -96,6 +105,7 @@ h3 {
   letter-spacing: 0.05rem;
   font-family: 'Lato', 'Helvetica', sans-serif;
   text-align: center;
+  font-size: 0.9rem;
 }
 
 .hamburger {
@@ -196,7 +206,7 @@ h3 {
 
 .social-icon {
   display:inline-block;
-  height: 40px;
+  height: 30px;
   margin: 0 auto;
   padding: 0.25rem;
 }
@@ -220,7 +230,6 @@ h3 {
   width: 60%;
   margin: 0 auto;
   margin-top: -7rem;
-  z-index: 2 !important;
   text-align: center;
   border: 1px solid #DBDBDB;
   padding-top: 2rem;
