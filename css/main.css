@@ -3,7 +3,7 @@
 
 body {
   color: #272838;
-  background-color: #FFEBEC;
+  background-color: #FFFFFF;
   letter-spacing: 0.15rem;
 }
 
@@ -38,7 +38,7 @@ h3 {
   background-color: #001064;
   padding-bottom: 18rem;
   padding-top: 3rem;
-  color: #FFEBEC !important;
+  color: #FFFFFF !important;
 }
 
 .about-text {
@@ -64,7 +64,7 @@ h3 {
 
 .button-bordered:hover {
   background-color: #0F3082;
-  color: #FFEBEC;
+  color: #FFFFFF;
   cursor: pointer;
 }
 
@@ -94,7 +94,7 @@ h3 {
   border-radius: 50%;
   height: 400px;
   width: 400px;
-  background-color: #FFEBEC;
+  background-color: #FFFFFF;
   margin: -2.5rem auto 0 auto;
 }
 
@@ -102,7 +102,6 @@ h3 {
   background-color: #001064;
   padding-top: 10rem;
   text-align: center;
-
 }
 
 .content {
@@ -196,9 +195,16 @@ h3 {
   margin-left: 0.75rem;
 }
 
-.project-image {
+.project-holder {
   height: 250px;
+  width: 100%;
   background-color: black;
+  border-radius: 4px;
+}
+
+.project-holder img {
+  height: 100%;
+  width: 100%;
   border-radius: 4px;
 }
 
@@ -234,7 +240,7 @@ h3 {
 }
 
 .tech {
-  background-color: #FFEBEC;
+  background-color: #FFFFFF;
   border-radius: 4px;
   width: 60%;
   margin: 0 auto;
