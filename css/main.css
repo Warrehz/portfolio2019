@@ -113,6 +113,12 @@ h3 {
   margin-top: 5rem;
 }
 
+.contact-me {
+  text-align: center;
+  background-color: gray;
+  padding-bottom: 10rem;
+}
+
 .footer {
   background-color: #001064;
   padding-top: 10rem;
@@ -125,6 +131,10 @@ h3 {
   font-family: 'Lato', 'Helvetica', sans-serif;
   text-align: center;
   font-size: 0.9rem;
+}
+
+.form-area {
+  padding-top: 2.5rem;
 }
 
 .hamburger {
@@ -153,6 +163,10 @@ h3 {
 .hero-section {
   padding-top: 5rem;
   padding-bottom: 16.5rem;
+}
+
+.hide {
+  display: none;
 }
 
 .image-overlay {
@@ -412,8 +426,17 @@ h3 {
     left: 10px;
   }
 
+  .contact-me {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+  }
+
   .content {
     margin-top: 0;
+  }
+
+  .form-area {
+    padding-top: 1rem;
   }
 
   .hamburger {
