@@ -29,6 +29,13 @@ button {
   font-size: 1.25rem;
   font-family: 'Catamaran', 'Helvetica', sans-serif;
   letter-spacing: 0.15rem;
+  color: #FFFFFF !important;
+  background-color: #0F3082;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
 }
 
 h1 {
@@ -38,7 +45,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.25rem;
+  font-size: 2rem;
   margin-top: 0.1em;
   font-weight: 400;
   font-family: 'Lato', 'Helvetica', sans-serif;
@@ -60,6 +67,10 @@ input {
   font-size: 1.1rem;
 }
 
+input:focus, select:focus, textarea:focus {
+  outline-color: #EF0D33;
+}
+
 textarea {
   width: 45.5%;
   height: 10rem;
@@ -69,6 +80,7 @@ textarea {
   border: none;
   letter-spacing: 0.05rem;
   font-size: 1.1rem;
+  margin-bottom: 0.33rem;
 }
 
 #navbar {
@@ -113,7 +125,7 @@ button, .button-bordered {
   transition: background-color 0.8s ease-out;
 }
 
-button:hover, .button-bordered:hover {
+.button-bordered:hover {
   background-color: #0F3082;
   color: #FFFFFF;
   cursor: pointer;
@@ -148,13 +160,13 @@ button:hover, .button-bordered:hover {
 }
 
 .footer {
-  background-color: #001064;
-  padding-top: 10rem;
+  padding-top: 3rem;
   text-align: center;
+  padding-bottom: 5rem;
+  border-top: 1px solid #DBDBDB;
 }
 
 .footer-text {
-  color: #FFFFFF;
   letter-spacing: 0.05rem;
   font-family: 'Lato', 'Helvetica', sans-serif;
   text-align: center;
@@ -189,7 +201,7 @@ button:hover, .button-bordered:hover {
 }
 
 .hero-section {
-  padding-top: 5rem;
+  padding-top: 7rem;
   padding-bottom: 16.5rem;
 }
 
@@ -224,6 +236,11 @@ button:hover, .button-bordered:hover {
   transition: background-color 0.8s ease-out;
 }
 
+.mail-link {
+  text-decoration: none;
+  color: #EF0D33;
+}
+
 .my-projects {
   width: 63%;
   margin: 0 auto;
@@ -251,7 +268,7 @@ button:hover, .button-bordered:hover {
 
 .nav-link {
   padding: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
 }
 
 .nav-link:nth-child(4) {
@@ -324,7 +341,7 @@ button:hover, .button-bordered:hover {
   display:inline-block;
   height: 30px;
   margin: 0 auto;
-  padding: 0.25rem;
+  padding: 3rem 1rem 0.25rem 1rem;
 }
 
 .sub-text {
@@ -357,7 +374,6 @@ button:hover, .button-bordered:hover {
 .testimonials {
   text-align: center;
   margin-top: 15rem;
-  border-top: 1px solid #DBDBDB;
   padding-bottom: 10rem;
 }
 
